@@ -1,0 +1,10 @@
+package com.example.android.storemapping_fsd;
+
+import android.app.Dialog;
+
+public interface CategoryCommunicatorCityState {
+	
+	public void selectedCityState(String selectedCategory, Dialog dialog, int flgCityState);
+
+
+}
